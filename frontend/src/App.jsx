@@ -1,9 +1,9 @@
 import "./App.css";
-// import LogIn from "./components/pages/login/Login";
+import SignUp from "./components/pages/signup/SignUp";
 
 function App() {
   return <div className="p-4 h-screen flex items center justify-center">
-    {/* <LogIn/> */}
+    <SignUp/>
   </div>;
 }
 
