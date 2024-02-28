@@ -1,9 +1,9 @@
 import "./App.css";
-import SignUp from "./components/pages/signup/SignUp";
+import Home from "./components/pages/home/Home";
 
 function App() {
-  return <div className="p-4 h-screen flex items center justify-center">
-    <SignUp/>
+  return <div className="p-4 h-screen flex items-center justify-center">
+    <Home/>
   </div>;
 }
 
